@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readi Bookstore</title>
+
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/> -->
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="https://kit.fontawesome.com/8f441d49ca.js" crossorigin="anonymous"></script>
+
+    <script src="../script.js"></script>
+</head>
+<body>
+    
+    <!-- header -->
+    <section id="header">
+        <a href="#" class="logo">READ<span>i</span>.</a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a class="active" href="../shop.html">Shop</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li id="home-bag"><a href="../cart.html"><i class="fas fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="../cart.html"><i class="fas fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+
+
+    <!-- return icon -->
+    <section id="return" class="section-p1">
+        <!-- LINK HREFNY SESUAI GENRE KALIAN -->
+        <!-- Contohnya buku horror, nnti hrefny '../category/horror.html' -->
+        <div class="return-icon" onclick="window.location.href='../category/horror.html';"> 
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+    </section>
+
+    <section id="product-details" class="section-p1">
+        <div class="product-img">
+            <!--contoh kalo HORROR, srcnya '../assets/img/horror/blabla.png' -->
+            <img src="../assets/img/horror/ambang_keamatian.png" width="100%" alt="">
+        </div>
+
+        <div class="the-details">
+            <!-- penulis -->
+            <p>Om Jero</p> 
+            <!-- judul -->
+            <h2>Di Ambang Kematian</h2>
+            <!-- harga -->
+            <h2>IDR 200.000</h2>
+
+            <input type="number" value="1">
+            <button>Add to Cart</button>
+
+            <h4>Synopsis</h4>
+            <p>Pesugihan telah merenggut nyawa ibu dan kakak Nadia. Dalam pesugihan yang dilakukan ole ayah Nadia, tap 10 tahun sekali akan merenggut nyawa di anggota keluarganya. 2002, ibu meninggal. 2012, kakak meninggal. 2022, Nadia berikutnya. Tidak bisa lepas dari jeratan pesugihan yang dilakukan oleh ayah kandungnya sendiri. Nadia terus menangis dan tak kuasa mengingat ajalnya sudah dekat. Bayang-bayang kematian ibu dan kakakya yang tragis dan sadis mash menghantui pikiran Nadia. la tak sanggup akan mati dalam keadaan yang sama seperti ibu dan kakaknya. Kini, makhluk tak kasat mata terus mengganggu Nadia dan mengancam nyawanya. Akankah Nadia bebas dari jeratan pesugihan? Apa yang harus Nadia lakukan?
+            </p>
+        </div>
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2><span>Read</span> More</h2>
+
+        <div class="product-container">
+            <div class="product" onclick="window.location.href='../product_details_romance/alaska-lodon.html';">
+                <img src="../assets/img/romance/alaska.png" alt="">
+                <div class="description">
+                    <p>Eka Aryani</p>
+                    <h4>Teluk Alaska</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 180.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+
+            <div class="product" onclick="window.location.href='../product_details_romance/crazy-lodon.html';">
+                <img src="../assets/img/romance/craz_rich.png" alt="">
+                <div class="description">
+                    <p>Kevin Kwan</p>
+                    <h4>Crazy Rich Asian</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 190.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+
+                <div class="product" onclick="window.location.href='../product_details/24jam.html';">
+                    <img src="../assets/img/thriller/24jam.png" alt="">
+                    <div class="description">
+                        <p>Sabda Armandio</p>
+                        <h4>24 Jam Bersama Gaspar</h4>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="price">IDR 68.000</h4>
+                    </div>
+                    <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+                </div>
+
+            <div class="product" onclick="window.location.href='../product_details/abs_just.html';">
+                <img src="../assets/img/thriller/abs_just.png" alt="">
+                <div class="description">
+                    <p>Akiyoshi Rikako</p>
+                    <h4>Absolute Justice</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 98.500</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <h2 class="logo">READ<SPAN>i</SPAN>.</h2>
+            <h4>Contact</h4>
+            <p><b>Address: </b>walalalla</p>
+            <p><b>Phone: </b>walalalla</p>
+            <p><b>Operating Hours: </b>walalalla</p>
+
+            <div class="socmed">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col">
+            <h4>Secured Payment Gateways</h4>
+            <img src="../assets/img/payment.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>2023, ng-apainsih | Front-End Programming TI B</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

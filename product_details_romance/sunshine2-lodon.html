@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readi Bookstore</title>
+
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/> -->
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="https://kit.fontawesome.com/8f441d49ca.js" crossorigin="anonymous"></script>
+
+    <script src="../script.js"></script>
+</head>
+<body>
+    
+    <!-- header -->
+    <section id="header">
+        <a href="#" class="logo">READ<span>i</span>.</a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a class="active" href="../shop.html">Shop</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li id="home-bag"><a href="../cart.html"><i class="fas fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="../cart.html"><i class="fas fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+
+
+    <!-- return icon -->
+    <section id="return" class="section-p1">
+        <!-- LINK HREFNY SESUAI GENRE KALIAN -->
+        <!-- Contohnya buku horror, nnti hrefny '../category/horror.html' -->
+        <div class="return-icon" onclick="window.location.href='../category/romance.html';"> 
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+    </section>
+
+    <section id="product-details" class="section-p1">
+        <div class="product-img">
+            <!--contoh kalo HORROR, srcnya '../assets/img/horror/blabla.png' -->
+            <img src="../assets/img/romance/sunshine2.png" width="100%" alt="">
+        </div>
+
+        <div class="the-details">
+            <!-- penulis -->
+            <p>Kim Eun Sook</p> 
+            <!-- judul -->
+            <h2>Mr Sunshine 2</h2>
+            <!-- harga -->
+            <h2>IDR 225.000</h2>
+
+            <input type="number" value="1">
+            <button>Add to Cart</button>
+
+            <h4>Synopsis</h4>
+<p>Ae Shin dan Eugene mau tidak mau harus mengorbankan cinta mereka. Dong Mae yang mengharapkan Ae Shin pun dihadapan dengan dua pilihan, tetap menjadi pihak Jepang atau membantu Joseon demi Ae Shin. Hee Seong tak mau kalah, ia mengorbankan rasa sukanya pada Ae Shin dengan membatalkan pernikahan mereka. Hina Kudo pun akhirnya membuat pilihannya, meski ia sendiri yang harus berkorban.</p>        </div>
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2><span>Read</span> More</h2>
+
+        <div class="product-container">
+            <div class="product" onclick="window.location.href='star-lodon.html';">
+                <img src="../assets/img/romance/star.png" alt="">
+                <div class="description">
+                    <p>Ilana Tan</p>
+                    <h4>The Star and I</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 180.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+
+           <div class="product" onclick="window.location.href='dilan-lodon.html';"> 
+                <img src="../assets/img/romance/dilan91.png" alt="">
+                <div class="description">
+                    <p>Pidi Baiq</p>
+                    <h4>Dilan 1991</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 205.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+
+            <div class="product" onclick="window.location.href='crazy-lodon.html';">
+                <img src="../assets/img/romance/craz_rich.png" alt="">
+                <div class="description">
+                    <p>Kevin Kwan</p>
+                    <h4>Crazy Rich Asian</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 190.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+
+
+            <div class="product" onclick="window.location.href='dikta-lodon.html';"> 
+                <img src="../assets/img/romance/dikta_hukum.png" alt="">
+                <div class="description">
+                    <p>Dhia'an Farah</p>
+                    <h4>Dikta dan Hukum</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 200.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <h2 class="logo">READ<SPAN>i</SPAN>.</h2>
+            <h4>Contact</h4>
+            <p><b>Address: </b>walalalla</p>
+            <p><b>Phone: </b>walalalla</p>
+            <p><b>Operating Hours: </b>walalalla</p>
+
+            <div class="socmed">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col">
+            <h4>Secured Payment Gateways</h4>
+            <img src="../assets/img/payment.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>2023, ng-apainsih | Front-End Programming TI B</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

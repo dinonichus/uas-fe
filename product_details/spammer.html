@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readi Bookstore</title>
+
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/> -->
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="https://kit.fontawesome.com/8f441d49ca.js" crossorigin="anonymous"></script>
+
+    <script src="../script.js"></script>
+</head>
+<body>
+    
+    <!-- header -->
+    <section id="header">
+        <a href="#" class="logo">READ<span>i</span>.</a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a class="active" href="../shop.html">Shop</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li id="home-bag"><a href="../cart.html"><i class="fas fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="../cart.html"><i class="fas fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+
+
+    <!-- return icon -->
+    <section id="return" class="section-p1">
+        <!-- LINK HREFNY SESUAI GENRE KALIAN -->
+        <!-- Contohnya buku horror, nnti hrefny '../category/horror.html' -->
+        <div class="return-icon" onclick="window.location.href='../category/thriller.html';"> 
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+    </section>
+
+    <section id="product-details" class="section-p1">
+        <div class="product-img">
+            <!--contoh kalo HORROR, srcnya '../assets/img/horror/blabla.png' -->
+            <img src="../assets/img/thriller/spammer.png" width="100%" alt="">
+        </div>
+
+        <div class="the-details">
+            <!-- penulis -->
+            <p>Ronny Mailindra</p> 
+            <!-- judul -->
+            <h2>Spammer</h2>
+            <!-- harga -->
+            <h2>IDR 80.000</h2>
+
+            <input type="number" value="1">
+            <button>Add to Cart</button>
+
+            <h4>Synopsis</h4>
+            <p>Vergis tak menyangka kegiatan spamming yang dilakoninya akan mendatangkan bencana. Hidupnya berubah mencekam ketika ia diserang sekelompok orang yang berniat membunuhnya. Ternyata, tanpa sengaja, virus yang Vergis sebar berhasil mencuri ﬁle bukti tindak korupsi yang dilakukan Aven Dogoan bersama anggota DPR dan menteri. Aven pun bertekad, Vergis harus dihabisi. 
+                Sialnya, ke mana pun Vergis pergi, keberadaannya selalu berhasil dilacak oleh hacker bernama Leak. Karena tak bisa lari Iagi, Vergis akhirnya memutuskan untuk balas melawan. Adu taktik serta kecerdikan tak terelakkan. Perang digital di antara kedua peretas tersebut menjadi semakin berbahaya, apalagi ketika Leak dan Aven berhasil menculik Rinjani, kekasih Vergis. Vergis pun harus mencari cara guna menyelamatkan kekasihnya, meski nyawa mereka menjadi taruhannya.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2><span>Read</span> More</h2>
+
+        <div class="product-container">
+            <div class="product" onclick="window.location.href='../product_details/box_in_wood.html';">
+                <img src="../assets/img/thriller/box_in_wood.png" alt="">
+                <div class="description">
+                    <p>Maureen Johnson</p>
+                    <h4>The Box In The Woods</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 230.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+
+            <div class="product" onclick="window.location.href='../product_details/hp_hbp.html';">
+                <img src="../assets/img/fantasy/hp_hbp.png" alt="">
+                <div class="description">
+                    <p>J. K. Rowling</p>
+                    <h4>Harry Potter and the Halfblood Prince</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 190.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+
+            <div class="product" onclick="window.location.href='../product_details/hp_phils.html';">
+                <img src="../assets/img/fantasy/hp_phils.png" alt="">
+                <div class="description">
+                    <p>J. K. Rowling</p>
+                    <h4>Harry Potter and the Philosopher's Stone</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 183.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+
+            <div class="product" onclick="window.location.href='../product_details/pc_tales_of_pecu.html';">
+                <img src="../assets/img/fantasy/talesofpecu.png" alt="">
+                <div class="description">
+                    <p>Ransom Riggs</p>
+                    <h4>Tales of the Peculiar</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 200.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <h2 class="logo">READ<SPAN>i</SPAN>.</h2>
+            <h4>Contact</h4>
+            <p><b>Address: </b>walalalla</p>
+            <p><b>Phone: </b>walalalla</p>
+            <p><b>Operating Hours: </b>walalalla</p>
+
+            <div class="socmed">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col">
+            <h4>Secured Payment Gateways</h4>
+            <img src="../assets/img/payment.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>2023, ng-apainsih | Front-End Programming TI B</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

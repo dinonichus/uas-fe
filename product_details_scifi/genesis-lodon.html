@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readi Bookstore</title>
+
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/> -->
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="https://kit.fontawesome.com/8f441d49ca.js" crossorigin="anonymous"></script>
+
+    <script src="../script.js"></script>
+</head>
+<body>
+    
+    <!-- header -->
+    <section id="header">
+        <a href="#" class="logo">READ<span>i</span>.</a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a class="active" href="../shop.html">Shop</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li id="home-bag"><a href="../cart.html"><i class="fas fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="../cart.html"><i class="fas fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+
+
+    <!-- return icon -->
+    <section id="return" class="section-p1">
+        <!-- LINK HREFNY SESUAI GENRE KALIAN -->
+        <!-- Contohnya buku horror, nnti hrefny '../category/horror.html' -->
+        <div class="return-icon" onclick="window.location.href='../category/scifi.html';"> 
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+    </section>
+
+    <section id="product-details" class="section-p1">
+        <div class="product-img">
+            <!--contoh kalo HORROR, srcnya '../assets/img/horror/blabla.png' -->
+            <img src="../assets/img/scifi/genesis.png" width="100%" alt="">
+        </div>
+
+        <div class="the-details">
+            <!-- penulis -->
+            <p>Neon Yang</p> 
+            <!-- judul -->
+            <h2>The genesis of misery </h2>
+            <!-- harga -->
+            <h2>IDR 220.000</h2>
+
+            <input type="number" value="1">
+            <button>Add to Cart</button>
+
+            <h4>Synopsis</h4>
+<p>Masuki dunia aneh di mana kegembiraan mencakup cobaan hidup. Buku ini akan mengungkap kekuatan batin Anda untuk memancarkan kegembiraan, bahkan saat menghadapi tantangan. Dari menyeruput teh peppermint hangat hingga berteriak di puncak gunung, biarkan momen ajaib ini memicu percikan kegembiraan di dalam diri Anda.
+</p>
+        </div>
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2><span>Read</span> More</h2>
+
+        <div class="product-container">
+            <div class="product" onclick="window.location.href='shark-lodon.html';">
+                <img src="../assets/img/scifi/sharkcall.png" alt="">
+                <div class="description">
+                    <p>Zillah Bethell</p>
+                    <h4>The Shark Caller</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 260.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+
+            <div class="product" onclick="window.location.href='ender-lodon.html';">
+                <img src="../assets/img/scifi/ender.png" alt="">
+                <div class="description">
+                    <p>Orson Scott Card</p>
+                    <h4>Ender's Game</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 210.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+            <div class="product" onclick="window.location.href='prodigy-lodon.html';">
+                <img src="../assets/img/scifi/prodigy.png" alt="">
+                <div class="description">
+                    <p>Midnightstalks</p>
+                    <h4>Prodigy</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 250.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+            <div class="product" onclick="window.location.href='melangkah-lodon.html';"> 
+                <img src="../assets/img/scifi/melangkah.png" alt="">
+                <div class="description">
+                    <p>J.S Khairen</p>
+                    <h4>Melangkah</h4>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>q
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">IDR 240.000</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <h2 class="logo">READ<SPAN>i</SPAN>.</h2>
+            <h4>Contact</h4>
+            <p><b>Address: </b>walalalla</p>
+            <p><b>Phone: </b>walalalla</p>
+            <p><b>Operating Hours: </b>walalalla</p>
+
+            <div class="socmed">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col">
+            <h4>Secured Payment Gateways</h4>
+            <img src="../assets/img/payment.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>2023, ng-apainsih | Front-End Programming TI B</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
